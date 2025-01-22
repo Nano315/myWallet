@@ -1,0 +1,80 @@
+expo-env.d.ts
+# @end expo-cli
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo and React Native generated files
+.expo/
+.expo-shared/
+dist/
+web-build/
+ios/
+android/
+
+# Logs and temporary files
+*.log
+*.tlog
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*.log.*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.app
+*.ipa
+*.xcworkspace
+Pods/
+*.xcuserdatad/
+*.xcuserdata/
+*.lock
+*.orig
+
+# Miscellaneous
+# Ignore environment files (you can choose to version `.env.example`)
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Ignore debugging and dependency lock files
+package-lock.json
+yarn.lock
+
+# Metro bundler cache and haste map
+metro-cache/
+haste-map-react-native-packager-*
+
+# React Native-specific files
+*.keystore
+*.jks
+*.map
+__tests__/output/
+
+# Expo
+*.expo/*
+*.expo-shared/*
+expo-settings.json
+
+# Firebase
+constants/serviceAccountKey.json
+constants/configFirebase.js
+scripts/serviceAccountKey.json
+scripts/configFirebase.py
+scripts/__pycache__/*
