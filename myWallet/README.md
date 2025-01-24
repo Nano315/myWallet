@@ -95,7 +95,10 @@ Le but de cette application est de mieux gérer son budget personnel. Y'a une pa
    ```bash
    npm install
    ```
-4. Lancer l'application :
+4. Configuration de Firebase
+    Placez le fichier `serviceAccountKey.json` dans le dossier `constants`.
+    Configurez les données manquantes Firebase dans `configFirebase.js`.
+5. Lancer l'application :
    ```bash
    expo start
    ```
