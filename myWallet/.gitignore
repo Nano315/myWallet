@@ -74,7 +74,6 @@ expo-settings.json
 
 # Firebase
 constants/serviceAccountKey.json
-constants/configFirebase.js
 scripts/serviceAccountKey.json
 scripts/configFirebase.py
 scripts/__pycache__/*
