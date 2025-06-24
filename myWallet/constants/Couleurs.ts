@@ -6,7 +6,9 @@ export const couleurs = {
     grey: "#F1F1F3",
     black: "#1A1A1A",
     lightRed: '#ED7437',
-    darkRed: '#7E2C03'
+    darkRed: '#7E2C03',
+    violetEquivalentIcon : "#9F65D9",
+    violetSombreIcon : "#18042C"
 } as const;
 
 export type Couleurs = typeof couleurs;
