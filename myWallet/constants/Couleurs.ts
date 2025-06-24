@@ -1,7 +1,7 @@
 // Les petites couleurs de mon app
 export const couleurs = {
-    darkGreen: "#002A00",
-    lightGreen: "#71D561",
+    darkGreen: "#15002A",
+    lightGreen: "#8B61D5",
     white: "#FFFFFF",
     grey: "#F1F1F3",
     black: "#1A1A1A",
